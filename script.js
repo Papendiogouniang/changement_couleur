@@ -21,12 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Retourne la couleur au format "rgb(r, g, b)"
         return `rgb(${r}, ${g}, ${b})`;
         
-        /* 
-        Alternative en hexadécimal (commentée) :
-        return `#${Math.floor(Math.random()*16777215).toString(16)}`;
-        - 16777215 = 256^3 (16,777,216) - 1 (couleurs possibles)
-        - toString(16) convertit en base 16 (hexadécimal)
-        */
+       
     }
     
     // 3. GESTION DE L'INTERACTIVITÉ
